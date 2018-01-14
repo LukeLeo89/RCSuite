@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="FunctionalTest(failed)">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="com.Test.TestCase1">
+        <methods>
+          <include name="configureBrowser"/>
+          <include name="createNewCptyGeneraltab"/>
+          <include name="closeBrowsers"/>
+        </methods>
+      </class> <!-- com.Test.TestCase1 -->
+    </classes>
+  </test> <!-- FunctionalTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
