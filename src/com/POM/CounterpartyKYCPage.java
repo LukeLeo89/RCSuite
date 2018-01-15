@@ -216,7 +216,10 @@ public class CounterpartyKYCPage {
 		pgv.setGridValues(cptykycfinancialdetailsgridcovenantdd, "Dropdown", covenant, 1, cptykycfinancialdetailsgridtbl);
 		pgv.setGridValues(cptykycfinancialdetailsgridpercentchk, "Checkbox", perc, 2, cptykycfinancialdetailsgridtbl);
 		pgv.setGridValues(cptykycfinancialdetailsgridratiotxt, "Textbox", ratio, 3, cptykycfinancialdetailsgridtbl);
-		pgv.setGridValues(cptykycfinancialdetailsgridcurrencydd, "Dropdown", currency, 4, cptykycfinancialdetailsgridtbl);
+		if(perc.equals("No") || perc.equals("N")){
+			pgv.setGridValues(cptykycfinancialdetailsgridcurrencydd, "Dropdown", currency, 4, cptykycfinancialdetailsgridtbl);
+		}
+		
 		
 	}
 	

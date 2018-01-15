@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="164092" started-at="2018-01-14T11:17:42Z" finished-at="2018-01-14T11:20:26Z">
+  <suite name="Suite" duration-ms="160494" started-at="2018-01-15T09:51:05Z" finished-at="2018-01-15T09:53:45Z">
     <groups>
     </groups>
-    <test name="FunctionalTest" duration-ms="164092" started-at="2018-01-14T11:17:42Z" finished-at="2018-01-14T11:20:26Z">
+    <test name="FunctionalTest" duration-ms="160494" started-at="2018-01-15T09:51:05Z" finished-at="2018-01-15T09:53:45Z">
       <class name="com.Test.TestCase1">
-        <test-method status="PASS" signature="configureBrowser(java.lang.String)[pri:0, instance:com.Test.TestCase1@69a3d1d]" name="configureBrowser" is-config="true" duration-ms="4002" started-at="2018-01-14T16:47:42Z" finished-at="2018-01-14T16:47:46Z">
+        <test-method status="PASS" signature="configureBrowser(java.lang.String)[pri:0, instance:com.Test.TestCase1@69a3d1d]" name="configureBrowser" is-config="true" duration-ms="4260" started-at="2018-01-15T15:21:05Z" finished-at="2018-01-15T15:21:09Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureBrowser -->
-        <test-method status="PASS" signature="createNewCptyGeneraltab()[pri:1, instance:com.Test.TestCase1@69a3d1d]" name="createNewCptyGeneraltab" duration-ms="160076" started-at="2018-01-14T16:47:46Z" finished-at="2018-01-14T16:50:26Z">
+        <test-method status="PASS" signature="createNewCptyGeneraltab()[pri:1, instance:com.Test.TestCase1@69a3d1d]" name="createNewCptyGeneraltab" duration-ms="156221" started-at="2018-01-15T15:21:09Z" finished-at="2018-01-15T15:23:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewCptyGeneraltab -->

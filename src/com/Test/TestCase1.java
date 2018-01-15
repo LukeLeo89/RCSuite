@@ -85,12 +85,13 @@ public class TestCase1 extends BaseConfigurations {
 		
 		/*----------Add KYC Financial details----------*/
 		ckycp.addKYCFinancialDetails("TNW", "Yes", "25", "EUR", 1);
-		ckycp.addKYCFinancialDetails("Net Worth", "Yes", "50", "GBP", 2);
+		ckycp.addKYCFinancialDetails("Net Worth", "No", "50", "GBP", 2);
 		ckycp.addKYCFinancialDetails("Other Ratio", "Yes", "100", "USD", 3);
 		
 		
 		/*----------Delete KYC Financial details----------*/
 		ckycp.deleteKYCFinancialDetails("Net Worth");
+		
 		
 		/*----------Add KYC Bank details----------*/
 		ckycp.addKYCBankDetails("1234", "Test Acc 1", "Test Bank 1", "EUR", "Sort 1", "Swift 1", "IBAN 1", 1);
